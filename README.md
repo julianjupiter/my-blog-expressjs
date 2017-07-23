@@ -16,6 +16,7 @@ Or to download, just click **Clone or download** button above.
 Go to the directory using **Terminal**:
 
 `cd my-blog-expressjs`
+
 `npm install`
 
 # Running Application
