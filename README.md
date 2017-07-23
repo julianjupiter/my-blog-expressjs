@@ -9,13 +9,18 @@ To clone:
 
 Or to download, just click **Clone or download** button above.
 
-# Running Application
+# Install Dependencies
 
-To run, go to the directory using **Terminal**:
+[NodeJS](https://nodejs.org) must be installed first.
+
+Go to the directory using **Terminal**:
 
 `cd my-blog-expressjs`
+`npm install`
 
-and run the following command:
+# Running Application
+
+Run the following command:
 
 `node index.js`
 
