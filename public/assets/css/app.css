@@ -1,0 +1,12 @@
+.container.top-padding,
+.jumbotron.top-padding {
+  padding-top: 70px;
+}
+
+@font-face {
+    font-family: 'butlerregular';
+    src: url('/assets/fonts/butler_regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/butler_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

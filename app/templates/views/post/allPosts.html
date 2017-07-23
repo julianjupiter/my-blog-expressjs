@@ -1,0 +1,14 @@
+{% extends "../../layouts/default.html" %}
+                    {% block content %}
+                    {% for post in attributes.postData %}
+                        <section>
+                            <article>
+                                <header>
+                                    <h2><a href="/{{ post.slug }}">{{ post.title }}</a></h2>
+                                    <h4>{{ post.datePublished }}</h4>
+                                </header>
+                                <p>{{ post.description }}</p>
+                            </article>
+                        </section>
+                    {% endfor %}
+                    {% endblock %}

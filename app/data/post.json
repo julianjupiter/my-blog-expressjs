@@ -1,0 +1,16 @@
+[
+    {
+        "title" : "Java 8 Basics",
+        "category" : "java",
+        "slug" : "java-8-basics",
+        "description" : "Tutorial in Java 8 Basics",
+        "datePublished" : "2017-07-19"
+    },
+    {
+        "title" : "Express JS Basics",
+        "category" : "nodejs",
+        "slug" : "express-js-basics",
+        "description" : "Tutorial in Express JS Basics",
+        "datePublished" : "2017-07-19"
+    }
+]

@@ -1,0 +1,25 @@
+{% include "../fragments/head.html" %}
+{% include "../fragments/nav.html" %}
+        <div class="container top-padding">          
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">About</div>
+                        <div class="panel-body">
+                            <p><strong>Went to: </strong> Kahit Saan</p>
+                            <p><strong>Work at: </strong> Kahit Saan</p>
+                            <p><strong>Live In: </strong> Kahit Saan</p>
+                            <p><strong>From: </strong> Kahit Saan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            {{ block("content") }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% include "../fragments/footer.html" %}

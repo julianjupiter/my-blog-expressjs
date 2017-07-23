@@ -1,0 +1,17 @@
+{% include "../fragments/head.html" %}
+{% include "../fragments/nav.html" %}
+        <div class="jumbotron top-padding">
+            <div class="container" style="text-align:center;font-family:butlerregular;">
+                <h1>{{ attributes.postData.title }}</h1>
+                <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+                <p>{{ attributes.postData.datePublished }}</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12" style="padding:0 100px 0 100px;font-family:butlerregular;font-size:14pt;">                 
+                    {{ block("content") }}
+                </div>
+            </div>
+        </div>
+{% include "../fragments/footer.html" %}
