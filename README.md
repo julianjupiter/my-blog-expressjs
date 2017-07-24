@@ -3,7 +3,7 @@ A simple blog application written in NodeJS and ExpressJS. Similar to GitHub Pag
 
 # Clone or Download
 
-To clone, go to the directory using **Terminal**:
+To clone, go to your preferred workspace using **Terminal** and issue the following command:
 
 `git clone https://github.com/julianjupiter/my-blog-expressjs.git`
 
