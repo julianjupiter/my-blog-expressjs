@@ -3,7 +3,7 @@ A simple blog application written in NodeJS and ExpressJS. Similar to GitHub Pag
 
 # Clone or Download
 
-To clone:
+To clone, go to the directory using **Terminal**:
 
 `git clone https://github.com/julianjupiter/my-blog-expressjs.git`
 
@@ -12,8 +12,6 @@ Or to download, just click **Clone or download** button above.
 # Install Dependencies
 
 [NodeJS](https://nodejs.org) must be installed first.
-
-Go to the directory using **Terminal**:
 
 `cd my-blog-expressjs`
 
