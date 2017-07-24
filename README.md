@@ -23,6 +23,6 @@ Go to the directory using **Terminal**:
 
 Run the following command:
 
-`node index.js`
+`node ./public/index.js`
 
 Point your browser to [http://localhost:3000](http://localhost:3000).
